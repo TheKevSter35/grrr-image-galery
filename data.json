@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "url": "./assets/images/image1.png"
+  },
+  {
+    "id": 2,
+    "url": "./assets/images/image2.png"
+  },
+  {
+    "id": 3,
+    "url": "./assets/images/image3.png"
+  },
+  {
+    "id": 4,
+    "url": "./assets/images/image4.png"
+  },
+  {
+    "id": 5,
+    "url": "./assets/images/image5.png"
+  },
+  {
+    "id": 6,
+    "url": "./assets/images/image6.png"
+  },
+  {
+    "id": 7,
+    "url": "./assets/images/image7.png"
+  }
+]
