@@ -3,7 +3,7 @@ import {
 } from './limiter.js';
 
 export async function setImages() {
-  const responce = await fetch('../../../data.json')
+  const responce = await fetch('https://thekevster35.github.io/grrr-image-galery/data.json')
   const data = await responce.json()
   let app = document.querySelector('ul[data-route=gallery]');
   data && data.map((image, index) => {
