@@ -24,8 +24,6 @@ export async function setImages() {
     }
     
   })
-
-    const imageCounter = document.querySelector('h3');
-    imageCounter.innerText = `(${data.length}) Artworks`;
-    console.log(data.length)
+    const totalImages = document.querySelector('h3');
+    totalImages.innerText = `(${data.length}) Artworks`;
 }
