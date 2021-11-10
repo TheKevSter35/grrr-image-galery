@@ -1,4 +1,4 @@
-  function setpopup(pic) {
+  function setPopup(pic) {
       let app = document.querySelector('main');
       let setModal = `
               <div class = "modal">
