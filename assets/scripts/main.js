@@ -1,6 +1,6 @@
 import { setImages } from './modules/setimages.js';
 import { getImages } from './modules/getimages.js';
-import { limit, incLimit } from './modules/limiter.js';
+import { incLimit } from './modules/limiter.js';
 
 setImages()
 
