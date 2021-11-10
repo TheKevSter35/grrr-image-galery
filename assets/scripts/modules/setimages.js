@@ -1,5 +1,5 @@
 
-let limit = 5
+import { limit } from './limiter.js';
 
 export async function setImages() {
     const responce = await fetch('../../../data.json')
@@ -7,7 +7,6 @@ export async function setImages() {
     let app = document.querySelector('section[data-route=gifs]');
     console.log()
     data && data.map((image, index) => {
-        // console.log(index)
         if (index < limit) {
             let images = `
               <li class = "results">
@@ -17,8 +16,6 @@ export async function setImages() {
               </li>
             `;
             app.insertAdjacentHTML('beforeend', images);
-            
         }
     })
 }
-

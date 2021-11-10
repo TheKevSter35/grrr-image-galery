@@ -1,12 +1,13 @@
-
-
 import { setImages } from './modules/setimages.js';
 import { getImages } from './modules/getimages.js';
+import { limit, incLimit } from './modules/limiter.js';
 
+setImages()
 
-function app() {
-    setImages()
+let button = document.getElementById('submitbtn')
+button.addEventListener("click", incCounter);
+
+function incCounter() {
+    incLimit()
     getImages()
 }
-
-app()
