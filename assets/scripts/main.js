@@ -5,9 +5,9 @@ import { limit, incLimit } from './modules/limiter.js';
 setImages()
 
 let button = document.getElementById('submitbtn')
-button.addEventListener("click", incCounter);
+button.addEventListener("click", setNewLimit);
 
-function incCounter() {
+function setNewLimit() {
     incLimit()
     getImages()
 }
