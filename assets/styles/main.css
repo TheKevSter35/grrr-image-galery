@@ -301,5 +301,8 @@ section:nth-child(2) .copy p {
   section ul {
     grid-template-columns: 1fr;
   }
+  .modal img {
+    width: 200px;
+}
 
 }
