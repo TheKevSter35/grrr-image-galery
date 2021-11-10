@@ -48,9 +48,9 @@ button {
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-   border: 2px solid #60175a;
+  border: 2px solid #60175a;
   border-radius: 30px;
-  padding:20px;
+  padding: 20px;
   background: none;
   color: #fff;
   font-family: 'Play', sans-serif;
@@ -60,7 +60,7 @@ button {
   transition: 0.3s ease-in-out 0s;
 }
 
-button:hover{
+button:hover {
   background-color: #60175a;
 }
 
@@ -75,8 +75,9 @@ section:first-child {
   margin: 0 auto;
   padding: 20px;
 }
+
 section:first-child .copy {
-    padding: 80px 0 100px;
+  padding: 80px 0 100px;
 }
 
 section:nth-child(2) {
@@ -111,7 +112,6 @@ section ul .results {
   position: relative;
   opacity: 0;
   height: 400px;
-  /* width: 400px; */
 }
 
 section ul .results:nth-child(2) {
@@ -171,8 +171,8 @@ section ul .results article {
   padding: 20px;
   bottom: 0;
   display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 section ul .results article a {
@@ -181,14 +181,14 @@ section ul .results article a {
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-   border: 2px solid #00D1DB;
+  border: 2px solid #00D1DB;
   border-radius: 20px;
   padding: 10px 20px;
   width: 144px;
   transition: 0.3s ease-in-out 0s;
 }
 
-section ul .results article a:hover{
+section ul .results article a:hover {
   background-color: #00D1DB;
 }
 
@@ -287,9 +287,6 @@ section:nth-child(2) .copy p {
   }
 }
 
-
-
-
 @media (max-width:1330px) {
   section ul {
     grid-template-columns: 1fr 1fr;
@@ -301,8 +298,8 @@ section:nth-child(2) .copy p {
   section ul {
     grid-template-columns: 1fr;
   }
+
   .modal img {
     width: 200px;
-}
-
+  }
 }
