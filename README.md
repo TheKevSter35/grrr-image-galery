@@ -7,7 +7,10 @@
 - [x] The gallery should be able to contain a highlighted image. You can make the
 highlighted item bigger, smaller, bolder, brighter or weirder than the other items, that’s
 entirely up to you.
-- [x] no framework just good old javascript
+
+#### Personal Requirements list
+
+- [x] no framework just good old javascript.
 - [x] no css libary(bootstrap)
 
 #### Backlog
